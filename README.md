@@ -61,7 +61,7 @@ The voltage regulator pictured above was used for BlueProx and is easily availab
 ## OEM Car Key
 ![OEM Car Key](https://user-images.githubusercontent.com/17463970/80718975-af1c5180-8aaf-11ea-943a-3157499f8bdb.png)
 
-Design requirement 1 means that BlueProx cannot modify the car's security system. Instead, I obtained a spare remote and programmed that to my car. So BlueProx will emulate a button press to lock and unlock the car. Luckly for us, the RedBear Nano V2 has a 3V output, so we can power the remote without the battery. This also disables the key if the Nano V2 is not powered.
+Design requirement 1 means that BlueProx cannot modify the car's security system. Instead, I obtained a spare remote and programmed that to my car. BlueProx will instead emulate a button press to lock and unlock the car. Luckly for us, the RedBear Nano V2 has a 3V output, so we can power the remote without the battery. This also disables the key if the Nano V2 is not powered.
 
 These clones of these remotes are easily available on eBay and Amazon at a very low cost. I had a spare, but one could be procured for around $20 each.
 
@@ -90,7 +90,7 @@ I personally recommend using [Beacon Simulator on the Google Play Store](https:/
 >
 All other variables at the top of the code can be modified or tuned depending on your phone's transmitter power, local interference, timeout length, etc.   
 The code will scan and skip any Bluetooth advertising data that is under 20 bytes (since the Eddystone UID must have atleast that many). 
->KeyInstance2 in the code will trigger an additional function (open the trunk in this case) but its optional to use and wire up.  
+>KeyInstance2 in the code will trigger an additional function (open the trunk in this case) but its optional to use.
 
 
 
@@ -102,9 +102,7 @@ It's not pretty on the inside, but here is the completed project!
 
  - Always make things that you can take apart! The OEM key and the Nano V2 have connectors/headers to allow for disassembly and reprogramming.
  - The DC to DC converter has electrical tape on its bottom and is secured to the OBD-II connector with adhesive. Its not easy to remove, but since the other two components have connectors, it's no big deal. 
- - The 2N2222 transistors and 100 kΩ resistors are directly soldered on
-   the OEM key. There was no other way to fit everything 
-   inside the OBD-II housing otherwise!
+ - The 2N2222 transistors and 100 kΩ resistors are directly soldered on the OEM key. There was no other way to fit everything  inside the OBD-II housing otherwise.
 
 ![enter image description here](https://user-images.githubusercontent.com/17463970/80719135-e4c13a80-8aaf-11ea-9e7b-873ea2ab90f6.png)
 > Note that this isn't the final wiring harness of BlueProx. D4 is not connected in these pictures. The resistors were also wrapped in electrical tape in the final iteration  
@@ -122,5 +120,5 @@ If you enjoyed my work, check out my [website](https://www.johnsser.com)!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMjM3NzM1OV19
+eyJoaXN0b3J5IjpbNzczMTAwMTEzXX0=
 -->
