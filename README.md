@@ -39,7 +39,7 @@ Power consumption of 2.5W means that the ESP32 is dead in the water, and lower p
 ## nRF52832 (RedBear Nano V2)
 ![RedBear Nano V2](https://user-images.githubusercontent.com/17463970/80718862-87c58480-8aaf-11ea-9eed-1038721b737f.png)
 
-After discovering that the ESP32 couldn't be run in a low power state for this project, I wanted something without any extra features - the bare minimum - even just Bluetooth if possible. Lucky for me, the   [RedBear Nano V2](https://github.com/redbear/nRF5x/tree/master/nRF52832) was the perfect replacement. It has only a Bluetooth radio, a low power ARM processor (clocked at 16 MHz) and was designed to consume a little power as possible. Another upside is that is is almost a third of the size of the ESP32, which will be invaluable when attempting to integrate this into a small case.
+After discovering that the ESP32 couldn't be run in a low power state for this project, I wanted something without any extra features - the bare minimum - even just Bluetooth if possible. Lucky for me, the   [RedBear Nano V2](https://github.com/redbear/nRF5x/tree/master/nRF52832) was the perfect replacement. It is basically a Bluetooth radio with a low power ARM processor (clocked at 16 MHz) and was designed to consume a little power as possible. Another upside is that is is almost a third of the size of the ESP32, which will be invaluable when attempting to integrate this into a small case.
 
 >Note: The Redbear Nano V2 is now discontinued, and it does not seem like Particle (which has bought out RedBear) will make a replacement at this time. I procured mine for about $20 each
 ## ODB-II Case
@@ -122,5 +122,5 @@ If you enjoyed my work, check out my [website](https://www.johnsser.com)!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzM3NzY1MjddfQ==
+eyJoaXN0b3J5IjpbLTE5ODQ5OTExODddfQ==
 -->
