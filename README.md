@@ -9,7 +9,7 @@ The purpose of this project is to finally obtain my goal of only carrying my pho
 ## Design Requirements
 
 In order for this project to be successful, the following requirements were set:
- 1. BlueProx will only be one piece of hardware, which will be easily removed and installed into a car.
+ 1. BlueProx will be the only be one piece of hardware, which will be easily removed and installed into a car.
 	> This means that the phone will only be able to communicate with its built in radio, no hardware will be designed to be carried along side it. Software applications on the phone are acceptable.
 	
 	>This also means that the BlueProx cannot be permanently installed as that would make it difficult to remove/install. Furthermore, power needs to provided at all times - even when the car is off - such that BlueProx will unlock the car at all times.
@@ -32,7 +32,7 @@ Originally, an ESP32 was chosen for this project. It was low cost, low power* an
  - *The ESP32 has four modes: Active, Modem Sleep, Light and Deep Sleep. The issue is that the Bluetooth radio is disabled in all modes besides Active mode. In Active mode, the ESP32 consumes ~500mA, which is 2.5W. 
 
 In a month, the ESP32 would consume 1825 Wh. Thats over x7 our design requirement of 250 Wh! 
-Power consumption of 2.5W means that the ESP32 is dead in the water, a much lower power Bluetooth radio to move forward with needed to be found. 
+Power consumption of 2.5W means that the ESP32 is dead in the water, and a much lower power Bluetooth radio to move forward with needed to be found. 
 >Note: This is a real shame, because the ESP32 consumes only ~1mA in Light sleep. Too bad all the radios are unusable in this state.
 
 
@@ -122,5 +122,5 @@ If you enjoyed my work, check out my [website](https://www.johnsser.com)!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzE2NDAwODddfQ==
+eyJoaXN0b3J5IjpbMjEzODg1MjE4MF19
 -->
