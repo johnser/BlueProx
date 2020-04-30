@@ -46,15 +46,15 @@ After discovering that the ESP32 couldn't be run in a low power state for this p
 ![Cheap OBDII Case](https://user-images.githubusercontent.com/17463970/80718884-9318b000-8aaf-11ea-964a-68a365e1a5d5.png)
 
 In order obtain power at all times, 12V is provided from the OBD-II plug. Since ODB-II is a requirement for all cars from 1996 onward to test for environmental compliance, this could be implemented on any car made since then. 
->Note: 12V cigarette lighter outlets (AKA the Automobile auxiliary power outlets) are not a good solution here. They are spring loaded, so they can get get disconnected with time or vibration, and most turn off after the car sits for a few minutes or so. 
+>Note: 12V cigarette lighter outlets (AKA the automobile auxiliary power outlets) are not a good solution here. They are spring loaded, so they can get get disconnected with time or vibration, and most turn off after the car sits for a few minutes or so. 
 
 The case pictured above was used for BlueProx and is easily available on eBay and Amazon.  I procured mine for around $4 each.
 >
 ## 12V to 5V DC Converter
 ![FINE DC to DC Converter](https://user-images.githubusercontent.com/17463970/80718921-9f9d0880-8aaf-11ea-874c-2a16936cc301.png)
 
-Technically the RedBear Nano V2 can accept up to 12V input. However, the 12V from a car's electrical system can go up to 14V when the alternator is running, contains lots of electrical noise and could have large voltage transients on start up. It would be much smarter to have something that was designed to handle a car's 12V system. Since there are lots of options, I went to find the most efficient one. Luckily for me, I found [Arik Yavilevich's blog](https://blog.yavilevich.com/2017/03/efficient-dc-12v-to-5v-conversion-for-low-power-electronics-evaluation-of-six-modules/). 
-Arik's testing found that the "Fine" volatge regulator to be the most efficient at low current (87% efficient at 25mA!). This is imperative as the RedBear Nano V2 consumes around 1mA at 5V.
+Technically the RedBear Nano V2 can accept up to a 12V input. However, the 12V from a car's electrical system can go up to 14V when the alternator is running, contains lots of electrical noise and could have large voltage transients on start up. It would be much smarter to have something that was designed to handle a car's 12V system. Since there are lots of options, I went to find the most efficient one. Luckily for me, I found [Arik Yavilevich's blog](https://blog.yavilevich.com/2017/03/efficient-dc-12v-to-5v-conversion-for-low-power-electronics-evaluation-of-six-modules/). 
+Arik's testing found that the "Fine" volatge regulator to be the most efficient at low current (87% efficient at 25mA!). This is a great choice as the RedBear Nano V2 consumes around 1mA at 5V. 
 
 The voltage regulator pictured above was used for BlueProx and is easily available on eBay and Amazon. I procured mine for about $1 each
 
@@ -122,5 +122,5 @@ If you enjoyed my work, check out my [website](https://www.johnsser.com)!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODQ5OTExODddfQ==
+eyJoaXN0b3J5IjpbLTMzMjM3NzM1OV19
 -->
