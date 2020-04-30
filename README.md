@@ -94,7 +94,7 @@ The code will scan and skip any Bluetooth advertising data that is under 20 byte
 
 
 
-## Pictures
+# Pictures
 
 It's not pretty on the inside, but here is the completed project!
 
@@ -108,7 +108,7 @@ It's not pretty on the inside, but here is the completed project!
 
 ![enter image description here](https://user-images.githubusercontent.com/17463970/80719135-e4c13a80-8aaf-11ea-9e7b-873ea2ab90f6.png)
 > Note that this isn't the final wiring harness of BlueProx. D4 is not connected in these pictures. The resistors were also wrapped in electrical tape in the final iteration  
-## Conclusion
+# Conclusion
 The only design requirement not addressed is power consumption. So how much power does BlueProx consume?
 The RedBear Nano V2 consumes around 6mA while scanning for bluetooth devices. Assuming that the DC to DC converter is 80% efficient at 6mA, we would be using around 6 Wh a month. That means we beat the design requirement by a multiple of ***41***! Not too shabby. 
 > In theory, this means that it would take 3 years to drain a lead acid battery using BlueProx. Obviously other factors would prevent this from ever actually occurring. 
@@ -122,5 +122,5 @@ If you enjoyed my work, check out my [website](https://www.johnsser.com)!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg2NTc5OTQ3XX0=
+eyJoaXN0b3J5IjpbLTE4MzE2NDAwODddfQ==
 -->
