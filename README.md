@@ -19,18 +19,18 @@ In order for this project to be successful, the following requirements were set:
 	> Note that unless you have a deep cycle battery in your car, the manufactures of lead acid batteries recommend that you never go below 50% depth of discharge. For my group size 35 battery, that is no less than [12.20V](https://www.energymatters.com.au/components/battery-voltage-discharge/). 
 	>Assuming a fully charged battery, BlueProx cannot consume more than ***250 Wh*** in a month (assuming that the battery has [44 Ah](https://www.batteryequivalents.com/group-35-batteries-dimensions-features-and-recommendations.html) at 12V)
  3. The digital key must be able to be moved from phone to phone without reprogramming the BlueProx 
-	>This means that BlueProx cannot use Bluetooth MAC IDs to unlock or lock the car. Even if an Android phone's Bluetooth MAC didn't change regularly ([it does, since Android 8.0)](https://source.android.com/devices/tech/connect/wifi-mac-randomization), I can't use a Bluetooth MAC address as it would change from phone to phone. Ideally, some other method should be used to identify my key.
+	>This means that BlueProx cannot use Bluetooth MAC IDs to unlock or lock the car. Even if an Android phone's Bluetooth MAC didn't change regularly ([it does, since Android 8.0)](https://source.android.com/devices/tech/connect/wifi-mac-randomization), I can't use a Bluetooth MAC address as it would change from phone to phone. Ideally, some other method should be used to identify the digital key.
  
 
 # Hardware
 ## ~~ESP32~~
 ![ESP32](https://user-images.githubusercontent.com/17463970/80718810-77ada500-8aaf-11ea-98d7-eb4f79fe619e.png)
 
-Originally, an ESP32 was chosen for this project. It was low cost, low power* and had nice additional features like a Wi-Fi radio, lots of sample code and a "ultra-low power mode". 
+Originally, an ESP32 was chosen for this project. It was low cost, low power* and had nice additional features like a Wi-Fi radio, lots of sample code and a heavily advertised "ultra-low power mode". 
 
  - *The ESP32 has four modes: Active, Modem Sleep, Light and Deep Sleep. The issue is that the Bluetooth radio is disabled in all modes besides Active mode. In Active mode, the ESP32 consumes ~500mA, which is 2.5W. 
 
-In a month, the ESP32 would consume 1825 Wh. Thats over x7 our design requirement of 250 Wh! 
+In a month, the ESP32 would consume 1825 Wh. Thats over x7 our design requirement of 250 Wh! Or to put it a different way: a dead car battery in 
 Power consumption of 2.5W means that the ESP32 is dead in the water, and lower power Bluetooth radio must be sourced to move forward. 
 >Note: This is a real shame, because the ESP32 consumes only ~1mA in Light sleep. Too bad all the radios are unusable in this state.
 
@@ -119,5 +119,5 @@ If you enjoyed my work, check out my [website](https://www.johnsser.com)!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNTM2MDg4NSwtMjM4MTI1NTE0XX0=
+eyJoaXN0b3J5IjpbMTk4NjI4MjUwNywtMjM4MTI1NTE0XX0=
 -->
