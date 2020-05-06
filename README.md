@@ -64,7 +64,12 @@ The voltage regulator pictured above was used for BlueProx and is easily availab
 ## OEM Car Key
 ![OEM Car Key](https://user-images.githubusercontent.com/17463970/80718975-af1c5180-8aaf-11ea-943a-3157499f8bdb.png)
 
-The first design requirement means that BlueProx cannot modify the car's security system. In order to interface with the anti-theft system, BlueProx will only communicate with the car's remote lock and unlock functions. To do that, BlueProx will instead emulate a button press to lock and unlock the car. Luckly for us, the RedBear Nano V2 has a 3V output, so we can power the remote without the battery. This also disables the key if the Nano V2 is not powered.
+The first design requirement means that BlueProx cannot modify the car's security system. 
+In order to interface with the anti-theft system, BlueProx will only communicate with the key fob and will emulate a button press to lock and unlock the car. 
+
+> See the schematic section below for a wiring diagram.
+
+Luckily for us, the RedBear Nano V2 has a 3V output, so we can power the remote without the battery. This also disables the key if the Nano V2 is not powered.
 
 These clones of these remotes are easily available on eBay and Amazon at a very low cost. I had a spare, but one could be procured for around $20 each.
 
@@ -123,5 +128,5 @@ If you enjoyed my work, check out my [website](https://www.johnsser.com)!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NzY5NDc1NiwtMjM4MTI1NTE0XX0=
+eyJoaXN0b3J5IjpbMTczMTUyOTY2OSwtMjM4MTI1NTE0XX0=
 -->
