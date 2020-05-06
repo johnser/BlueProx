@@ -125,12 +125,12 @@ The RedBear Nano V2 consumes around 6mA while scanning for bluetooth devices. As
 In general, BlueProx works amazingly well. You can tune it for your comfort level and make the antenna as sensitive as you would like. The longest range I was able to get was around 150 ft and the shortest was a few inches. 
 I can now leave my keys in the center console of my vehicle, walk away, and have it lock. Since the horn honks when the vehicle locks, you can be sure that the vehicle is secured when a horn is heard while you walk away. When returning, the vehicle unlocks, and I pull my keys from the center console and drive away,
 
-BlueProx could be improved in the future by improving it's security. Currently, if you knew that a car was using an Eddystone UID to unlock, you could scan, spoof and have unauthorized access. This could be remedied by using an Eddystone EID but that also comes with a few caveats. In order for an EID to be used  synchronization from the beacon and BlueProx. This would also increase the power consumption of BlueProx and may require additional hardware. Also, depending on how often BlueProx and the phone synchronizes, if one got out of sync with the other, I would be locked out.  Due to the unlikelihood that someone would be attempting a spoof, I would categorize this as a minor risk and will address the security if the risk increases in the future. 
+BlueProx could be improved in the future by improving it's security. Currently, if you knew that a car was using an Eddystone UID to unlock, you could scan, spoof and have unauthorized access. This could be remedied by using an Eddystone EID but that also comes with a few caveats. In order for an EID to be used public keys must be exchanged and a clock must be  synchronized from the beacon and BlueProx. This would also increase the power consumption of BlueProx and may require additional hardware. Also, depending on how often BlueProx and the phone synchronizes, if one got out of sync with the other, I would be locked out.  Due to the unlikelihood that someone would be attempting a spoof, I would categorize this as a minor risk and will address the security if the risk increases in the future. 
 
 If you enjoyed my work, check out my [website](https://www.johnsser.com)! 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MjQ1Mzg4OSwtNjQ5MTk1MTA1LC05MT
-EwODg3ODcsLTE2MDYyMjk4NTMsLTIzODEyNTUxNF19
+eyJoaXN0b3J5IjpbNDQ3MjMzMjk1LC02NDkxOTUxMDUsLTkxMT
+A4ODc4NywtMTYwNjIyOTg1MywtMjM4MTI1NTE0XX0=
 -->
