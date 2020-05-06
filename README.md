@@ -100,6 +100,7 @@ All other variables at the top of the code can be modified or tuned depending on
 The code will scan and skip any Bluetooth advertising data that is under 20 bytes (since the Eddystone UID must have atleast that many). 
 >KeyInstance2 in the code will trigger an additional function (open the trunk in this case) but its optional to use.
 
+An interesting note is that since every bluetooth beacon is compared to the `KeyName` and `KeyInstance`  variables, there is a noti
 
 
 # Pictures
@@ -128,5 +129,5 @@ If you enjoyed my work, check out my [website](https://www.johnsser.com)!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MjM5ODI5NSwtMjM4MTI1NTE0XX0=
+eyJoaXN0b3J5IjpbODYyNzIyMjY4LC0yMzgxMjU1MTRdfQ==
 -->
