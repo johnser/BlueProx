@@ -100,7 +100,7 @@ All other variables at the top of the code can be modified or tuned depending on
 The code will scan and skip any Bluetooth advertising data that is under 20 bytes (since the Eddystone UID must have atleast that many). 
 >KeyInstance2 in the code will trigger an additional function (open the trunk in this case) but its optional to use.
 
-An interesting note is that since every bluetooth beacon is compared to the `KeyName` and `KeyInstance`  variables, there is a noti
+An interesting note is that since every broadcasted bluetooth beacon is compared to the `KeyName` and `KeyInstance`  variables, there is a noticeable lag when using BlueProx in areas with heavy bluetooth interference (parking garages). This could be adressed in the future
 
 
 # Pictures
@@ -129,6 +129,6 @@ If you enjoyed my work, check out my [website](https://www.johnsser.com)!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDYyMjk4NTMsODYyNzIyMjY4LC0yMz
+eyJoaXN0b3J5IjpbNzcxODUzNTY5LC0xNjA2MjI5ODUzLC0yMz
 gxMjU1MTRdfQ==
 -->
