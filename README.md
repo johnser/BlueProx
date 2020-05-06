@@ -11,15 +11,15 @@ In order for this project to be successful, the following requirements were set:
  1. BlueProx will be the only piece of hardware, which can be easily removed and installed into a car.
 	> This means that the phone will only be able to communicate with its built in radio, no hardware will be designed to be carried along side it. Software applications on the phone are acceptable.
 	
-	>This also means that the BlueProx cannot be permanently installed to anti theft hardware or tehas that would make it difficult to remove/install. Furthermore, power needs to provided at all times - even when the car is off - such that BlueProx will unlock the car at all times.
+	>This also means that the BlueProx cannot be permanently installed to a car's anti theft hardware (or in general) as that would make it difficult to remove/install. Furthermore, power needs to provided at all times - even when the car is off - such that BlueProx will unlock the car at all times.
 	
  2. The power consumption of BlueProx must be low enough to never drain an average car battery within a month
 	>I never go more than a month without driving, so this is to prevent the car from dying after returning from a vacation. It should be unplugged since the hardware needs to be easily removable but humans forget sometimes
 	
 	> Note that unless you have a deep cycle battery in your car, the manufactures of lead acid batteries recommend that you never go below 50% depth of discharge. For my group size 35 battery, that is no less than [12.20V](https://www.energymatters.com.au/components/battery-voltage-discharge/). 
-	>Assuming a fully charged battery, BlueProx cannot consume more than ***250 Wh*** in a month (assuming that the battery has [44 Ahrs](https://www.batteryequivalents.com/group-35-batteries-dimensions-features-and-recommendations.html) at 12V)
+	>Assuming a fully charged battery, BlueProx cannot consume more than ***250 Wh*** in a month (assuming that the battery has [44 Ah](https://www.batteryequivalents.com/group-35-batteries-dimensions-features-and-recommendations.html) at 12V)
  3. The digital key must be able to be moved from phone to phone without reprogramming the BlueProx 
-	>This means that BlueProx cannot use Bluetooth MAC IDs to unlock or lock the car. Even if my android phone's Bluetooth MAC didn't change regularly ([it does, since Android 8.0)](https://source.android.com/devices/tech/connect/wifi-mac-randomization), I can't use Bluetooth MAC as it would change from phone to phone. Ideally, some other method should be used to identify my key.
+	>This means that BlueProx cannot use Bluetooth MAC IDs to unlock or lock the car. Even if an Android phone's Bluetooth MAC didn't change regularly ([it does, since Android 8.0)](https://source.android.com/devices/tech/connect/wifi-mac-randomization), I can't use a Bluetooth MAC address as it would change from phone to phone. Ideally, some other method should be used to identify my key.
  
 
 # Hardware
@@ -119,5 +119,5 @@ If you enjoyed my work, check out my [website](https://www.johnsser.com)!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NzIxNjc2OCwtMjM4MTI1NTE0XX0=
+eyJoaXN0b3J5IjpbMTIyNTM2MDg4NSwtMjM4MTI1NTE0XX0=
 -->
