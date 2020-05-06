@@ -30,8 +30,9 @@ Originally, an ESP32 was chosen for this project. It was low cost, low power* an
 
  - *The ESP32 has four modes: Active, Modem Sleep, Light and Deep Sleep. The issue is that the Bluetooth radio is disabled in all modes besides Active mode. In Active mode, the ESP32 consumes ~500mA, which is 2.5W. 
 
-In a month, the ESP32 would consume 1825 Wh. Thats over x7 our design requirement of 250 Wh! Or to put it a different way: a dead car battery in 
-Power consumption of 2.5W means that the ESP32 is dead in the water, and lower power Bluetooth radio must be sourced to move forward. 
+In a month, the ESP32 would consume 1825 Wh. Thats over x7 our design requirement of 250 Wh! Or to put it a different way: **a dead car battery in 8 days**! 
+
+Due to the power consumption of 2.5W, the ESP32 is dead in the water, and a lower power Bluetooth radio must be sourced to move forward. 
 >Note: This is a real shame, because the ESP32 consumes only ~1mA in Light sleep. Too bad all the radios are unusable in this state.
 
 
@@ -53,7 +54,10 @@ The case pictured above was used for BlueProx and is easily available on eBay an
 ![FINE DC to DC Converter](https://user-images.githubusercontent.com/17463970/80718921-9f9d0880-8aaf-11ea-874c-2a16936cc301.png)
 
 Technically the RedBear Nano V2 can accept up to a 12V input. However, the 12V from a car's electrical system can go up to 14V when the alternator is running, contains lots of electrical noise and could have large voltage transients on start up. It would be much smarter to have something that was designed to handle a car's 12V system. Since there are lots of options, I went to find the most efficient one. Luckily for me, I found [Arik Yavilevich's blog](https://blog.yavilevich.com/2017/03/efficient-dc-12v-to-5v-conversion-for-low-power-electronics-evaluation-of-six-modules/). 
-Arik's testing found that the "Fine" volatge regulator to be the most efficient at low current (87% efficient at 25mA!). This is a great choice as the RedBear Nano V2 consumes around 1mA at 5V. 
+
+> Arik's testing found that the "Fine" volatge regulator to be the most
+> efficient at low current (87% efficient at 25mA!). This is a great
+> choice as the RedBear Nano V2 consumes around 1mA at 5V.
 
 The voltage regulator pictured above was used for BlueProx and is easily available on eBay and Amazon. I procured mine for about $1 each
 
@@ -119,5 +123,5 @@ If you enjoyed my work, check out my [website](https://www.johnsser.com)!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NjI4MjUwNywtMjM4MTI1NTE0XX0=
+eyJoaXN0b3J5IjpbLTExOTgxMjY0MywtMjM4MTI1NTE0XX0=
 -->
