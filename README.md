@@ -67,7 +67,7 @@ The voltage regulator pictured above was used for BlueProx and is easily availab
 The first design requirement means that BlueProx cannot modify the car's security system. 
 In order to interface with the anti-theft system, BlueProx will only communicate with the key fob and will emulate a button press to lock and unlock the car. 
 
-> See the schematic section below for a wiring diagram.
+> See the schematic section below for a wiring diagram. Note that the car key is unique to each car but the wiring diagram should be the same for any car with remote control but not keyless entry. 
 
 Luckily for us, the RedBear Nano V2 has a 3V output, so we can power the remote without the battery. This also disables the key if the Nano V2 is not powered.
 
@@ -128,5 +128,5 @@ If you enjoyed my work, check out my [website](https://www.johnsser.com)!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMTUyOTY2OSwtMjM4MTI1NTE0XX0=
+eyJoaXN0b3J5IjpbMTA4MjM5ODI5NSwtMjM4MTI1NTE0XX0=
 -->
