@@ -1,6 +1,5 @@
-
 # BlueProx
-BlueProx is a proximity Bluetooth car key that locks and unlocks your car based on the signal strength of your smartphone's Bluetooth signal. It implements the Eddystone UID beacon, sips power and is plug and play.
+BlueProx is a proximity Bluetooth car key that locks and unlocks your car based on the signal strength of your smartphone's Bluetooth signal. It implements the Eddystone UID beacon, sips power and is easily adaptable to many different kinds of cars. 
 
 ## Purpose
 The purpose of this project is to finally obtain my goal of only carrying my phone in my pocket. Originally inspired by using mobile payments to replace my wallet, the only remaining pocket hitchhiker was my car key. This fixes that. 
@@ -9,10 +8,10 @@ The purpose of this project is to finally obtain my goal of only carrying my pho
 ## Design Requirements
 
 In order for this project to be successful, the following requirements were set:
- 1. BlueProx will be the only piece of hardware, which will be easily removed and installed into a car.
+ 1. BlueProx will be the only piece of hardware, which can be easily removed and installed into a car.
 	> This means that the phone will only be able to communicate with its built in radio, no hardware will be designed to be carried along side it. Software applications on the phone are acceptable.
 	
-	>This also means that the BlueProx cannot be permanently installed as that would make it difficult to remove/install. Furthermore, power needs to provided at all times - even when the car is off - such that BlueProx will unlock the car at all times.
+	>This also means that the BlueProx cannot be permanently installed to anti theft hardware or tehas that would make it difficult to remove/install. Furthermore, power needs to provided at all times - even when the car is off - such that BlueProx will unlock the car at all times.
 	
  2. The power consumption of BlueProx must be low enough to never drain an average car battery within a month
 	>I never go more than a month without driving, so this is to prevent the car from dying after returning from a vacation. It should be unplugged since the hardware needs to be easily removable but humans forget sometimes
@@ -120,5 +119,5 @@ If you enjoyed my work, check out my [website](https://www.johnsser.com)!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzODEyNTUxNF19
+eyJoaXN0b3J5IjpbMTc5NzIxNjc2OCwtMjM4MTI1NTE0XX0=
 -->
