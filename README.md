@@ -8,10 +8,10 @@ The purpose of this project is to finally obtain my goal of only carrying my pho
 ## Design Requirements
 
 In order for this project to be successful, the following requirements were set:
- 1. BlueProx will be the only piece of hardware, which can be easily removed and installed into a car.
+ 1. BlueProx will be the only piece of hardware, which  be easily removed and installed into a car.
 	> This means that the phone will only be able to communicate with its built in radio, no hardware will be designed to be carried along side it. Software applications on the phone are acceptable.
 	
-	>This also means that the BlueProx cannot be permanently installed to a car's anti theft hardware (or in general) as that would make it difficult to remove/install. Furthermore, power needs to provided at all times - even when the car is off - such that BlueProx will unlock the car at all times.
+	>This also means that the BlueProx cannot be permanently installed to a car's anti theft hardware (or in general) tehas that would make it difficult to remove/install. Furthermore, power needs to provided at all times - even when the car is off - such that BlueProx will unlock the car at all times.
 	
  2. The power consumption of BlueProx must be low enough to never drain an average car battery within a month
 	>I never go more than a month without driving, so this is to prevent the car from dying after returning from a vacation. It should be unplugged since the hardware needs to be easily removable but humans forget sometimes
@@ -64,7 +64,7 @@ The voltage regulator pictured above was used for BlueProx and is easily availab
 ## OEM Car Key
 ![OEM Car Key](https://user-images.githubusercontent.com/17463970/80718975-af1c5180-8aaf-11ea-943a-3157499f8bdb.png)
 
-The first design requirement means that BlueProx cannot modify the car's security system. 
+e first dDesign requirement means that BlueProx cannot modify the car's security system. 
 In order to interface with the anti-theft system, BlueProx will only communicate with the key fob and will emulate a button press to lock and unlock the car. 
 
 > See the schematic section below for a wiring diagram. Note that the car key is unique to each car but the wiring diagram should be the same for any car with remote control but not keyless entry. 
@@ -129,5 +129,6 @@ If you enjoyed my work, check out my [website](https://www.johnsser.com)!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYyNzIyMjY4LC0yMzgxMjU1MTRdfQ==
+eyJoaXN0b3J5IjpbLTE2MDYyMjk4NTMsODYyNzIyMjY4LC0yMz
+gxMjU1MTRdfQ==
 -->
