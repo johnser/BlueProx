@@ -102,7 +102,7 @@ The code will scan and skip any Bluetooth advertising data that is under 20 byte
 
 An interesting note is that since every broadcasted bluetooth beacon is compared to the `KeyName` and `KeyInstance`  variables, there is a noticeable lag when using BlueProx in areas with heavy bluetooth interference (parking garages). This could be addressed in the future by optimising the function
 `scanCallBack(const Gap::AdvertisementCallbackParams_t *params)` 
-and filtering bluetooth beacons before they get to the main program. 
+and filtering bluetooth beacons beforbreaking down how `enter code they get to the main program.re` 
 
 
 # Pictures
@@ -131,6 +131,6 @@ If you enjoyed my work, check out my [website](https://www.johnsser.com)!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMTA4ODc4NywtMTYwNjIyOTg1MywtMj
-M4MTI1NTE0XX0=
+eyJoaXN0b3J5IjpbLTY0OTE5NTEwNSwtOTExMDg4Nzg3LC0xNj
+A2MjI5ODUzLC0yMzgxMjU1MTRdfQ==
 -->
