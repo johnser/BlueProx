@@ -64,7 +64,7 @@ The voltage regulator pictured above was used for BlueProx and is easily availab
 ## OEM Car Key
 ![OEM Car Key](https://user-images.githubusercontent.com/17463970/80718975-af1c5180-8aaf-11ea-943a-3157499f8bdb.png)
 
-e first dDesign requirement means that BlueProx cannot modify the car's security system. 
+The first Design requirement means that BlueProx cannot modify the car's security system. 
 In order to interface with the anti-theft system, BlueProx will only communicate with the key fob and will emulate a button press to lock and unlock the car. 
 
 > See the schematic section below for a wiring diagram. Note that the car key is unique to each car but the wiring diagram should be the same for any car with remote control but not keyless entry. 
