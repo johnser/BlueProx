@@ -1,5 +1,5 @@
 # BlueProx
-BlueProx is a proximity Bluetooth car key that locks and unlocks your car based on the signal strength of your smartphone's Bluetooth signal. It implements the Eddystone UID beacon, sips power and is easily adaptable to many different kinds of cars. 
+BlueProx is a proximity Bluetooth car key that locks and unlocks your car based the RSSI of a Bluetooth signal. It implements the Eddystone UID beacon, sips power and is easily adaptable to many different kinds of cars. 
 
 ## Purpose
 The purpose of this project is to finally obtain my goal of only carrying my phone in my pocket. Originally inspired by using mobile payments to replace my wallet, the only remaining pocket hitchhiker was my car key. This fixes that. 
